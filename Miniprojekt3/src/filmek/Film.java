@@ -91,4 +91,3 @@ class HorrorFilm extends Film implements IKorhataros {
         return super.toString() + ", Korhatar: " + korhat;
     }
 }
-
