@@ -1,0 +1,14 @@
+Kiss Bela | KIBNAAI.ELTE | 3 | GI |
+Nagy Timea | NATQBAI.ELTE | 5 | KGI |
+Kovacs Jozsef | KOJBBAA.ELTE | 4 | GI |
+Mekk Elek | MEEKEKE.ELTE | 1 | GI |
+
+
+ ArrayList<Student> studentList = new ArrayList<>();
+        try {
+            Scanner sc = new Scanner(new FileReader("C:\Users\midir\Downloads/hallgatok.csv"));
+
+            while (sc.hasNext()) {
+                String name = sc.next();
+                Student student = new Student name;
+                studentList.add(student);
